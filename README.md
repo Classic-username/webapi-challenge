@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is a package that makes the server easier to run.
+Express has routes that we can use for our specific types of resources.
+
 - [ ] Describe Middleware?
+
+Middleware is pretty much every function we write for the server.
 
 - [ ] Describe a Resource?
 
+A resource is something we're using the server to manage. (ex: users, pages, products.)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API returns statuses, more specifically 200 statuses.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can partition with express router. This app could be broken up into 'projects' and 'actions'.
 
 ## Project Setup
 
