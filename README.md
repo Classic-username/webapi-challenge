@@ -3,7 +3,7 @@
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Building RESTful Web APIs with Express and Node.js, Server-side Routing, Express Middleware & Deployment and Good Practices. In your challenge for this Sprint, you will demonstrate proficiency by creating an Web API using Node.js and Express.
 
 ## Instructions
-
+ 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is a package that makes the server easier to run.
+Express has routes that we can use for our specific types of resources.
+
 - [ ] Describe Middleware?
+
+Middleware is pretty much every function we write for the server.
 
 - [ ] Describe a Resource?
 
+A resource is something we're using the server to manage. (ex: users, pages, products.)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API returns statuses, more specifically 200 statuses.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can partition with express router. This app could be broken up into 'projects' and 'actions'.
 
 ## Project Setup
 
